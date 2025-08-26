@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--provide background colour and text colour-->
+    <body bgcolor="#E29638" text="white"></body>
+    <p align="center"><u><b>Yummy Cheesy Pizza</b></u></p>
+    <!--form table and align-->
+    <table align="center">
+<tr>
+    <td valign="bottom"><img src="pizza.png" height="30" width="30"></td>
+    <td valign="bottom"><img src="pizza.png" height="50" width="50"></td>
+    <td valign="bottom"><img src="pizza.png" height="70" width="70"></td>
+    <td valign="bottom"><img src="pizza.png" height="90" width="90"></td>
+</tr>
+<tr>
+    <td><p align="center">Small</p></td>
+    <td><p align="center">Mediam</p></td>
+    <td><p align="center">Large</p></td>
+    <td><p align="center">Family Size</p></td>
+</tr>
+</table>
+<!--div-->
+<div width="70%"></div>
+<!--form-->
+<form action="index.html"></form>
+<!--personal informatio-->
+<fieldset>
+    <legend>PERSONAL INFORMATION</legend>
+    <label>FIRST NAME : </label><INPUT TYPE="TEXT" name="FNAME" size="60">
+    <label>LAST NAME : </label><INPUT TYPE="TEXT" name="LNAME" size="60"><br>
+    <label>MOBILE : </label><INPUT TYPE="TEXT" name="MOBILE" size="60">
+    <label>ADDRESS : </label><INPUT TYPE="TEXT" name="ADDRESS" size="60">
+</fieldset>
+<!--ORDER DETAILS-->
+<fieldset>
+    <legend>ORDER DETAILS</legend>
+    <seLECT name="SIZE">
+        <option>SELECT PIZZA SIZE</option>
+        <option value="1">Small</option>
+        <option value="2">Mediam</option>
+        <option value="3">Large</option>
+        <option value="4">Fmily</option>
+    </seLECT>
+    <seLECT name="SIZE">
+        <option>SELECT PIZZA QUALITY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </seLECT>
+    <label> Delivery Date : </label><INPUT TYPE="date" name="date">
+    <label> Delivery Time : </label><INPUT TYPE="time" name="time">
+        <seLECT name="SIZE">
+            <option>PAMENT METHOD</option>
+            <option value="1">Easy Paisa</option>
+            <option value="2">Cash on Delivery</option>
+            <option value="3">Mobicash</option>
+            <option value="4">Bank Transfer</option>
+        </seLECT>
+</fieldset>
+<!--cheese-->
+<fieldset>
+    <legend>CHEESE SELECTION</legend>
+       <INPUT TYPE="radio" name="CHEESE" value="1"/>Mozzaeralla
+        <INPUT TYPE="radio" name="CHEESE" value="2">Reduced Fact
+            <INPUT TYPE="radio" name="CHEESE" value="3">Feta
+                <INPUT TYPE="radio" name="CHEESE" value="4">Provolone
+                    <INPUT TYPE="radio" name="CHEESE" value="5">Cheddar
+                        <INPUT TYPE="radio" name="CHEESE" value="6">Parmesan
+                            <INPUT TYPE="radio" name="CHEESE" value="7">swiss cheese
+                                <INPUT TYPE="radio" name="CHEESE" value="8">cheddar
+                                    <INPUT TYPE="radio" name="CHEESE" value="9">Quattro formaggi
+                                        <INPUT TYPE="radio" name="CHEESE" value="10">Margherita 
+                                            <INPUT TYPE="radio" name="CHEESE" value="11">Fresh
+                                                <INPUT TYPE="radio" name="CHEESE" value="12">Soft-Ripened
+</fieldset>
+<!--sauce-->
+<fieldset>
+    <legend>SAUSE SELECTION</legend>
+    <INPUT TYPE="radio" name="sauce" value="1"/>Marinara Sauce
+    <INPUT TYPE="radio" name="sauce" value="2"/>Spicy Red Sauce
+    <INPUT TYPE="radio" name="sauce" value="3"/>BBQ Sauce
+    <INPUT TYPE="radio" name="sauce" value="4"/>Buffalo Sauce
+    <INPUT TYPE="radio" name="sauce" value="5"/>Alfredo Sauce
+    <INPUT TYPE="radio" name="sauce" value="6"/>Pesto Sauce
+    <INPUT TYPE="radio" name="sauce" value="7"/>Chocolate Sauce
+    <INPUT TYPE="radio" name="sauce" value="8"/>Garlic souce
+    <INPUT TYPE="radio" name="sauce" value="9"/>Pizza souce
+    <INPUT TYPE="radio" name="sauce" value="10"/>Hummue
+</fieldset>
+<!--drinks-->
+<fieldset>
+    <legend>DRINKS SELECTION</legend>
+    <INPUT TYPE="radio" name="drink" value="1"/>coke
+    <INPUT TYPE="radio" name="drink" value="2"/>pepsi
+    <INPUT TYPE="radio" name="drink" value="3"/>7up
+    <INPUT TYPE="radio" name="drink" value="4"/>Dew
+    <INPUT TYPE="radio" name="drink" value="5"/>String
+    <INPUT TYPE="radio" name="drink" value="6"/>Big apple
+    <INPUT TYPE="radio" name="drink" value="7"/>sprite
+    <INPUT TYPE="radio" name="drink" value="8"/>fanta
+    <INPUT TYPE="radio" name="drink" value="9"/>marinda
+    <INPUT TYPE="radio" name="drink" value="10"/>next cola 
+    <BR>
+    <label>SELECT QUANTITY : </label><INPUT TYPE="TEXT" name="QUANTITY" size="30">
+</fieldset>
+<!--TOPINGS-->
+<fieldset>
+    <legend>CHOOSE TOPPINGS-RS 100 EACH</legend>
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="1"/>Anchovies
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="2"/>Pepperonal
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="3"/>Mushroom
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="4"/>Extra cheese
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="5"/>Sausage
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="6"/>Onion
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="7"/>Black olives
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="8"/>Green pepper
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="9"/>Fresh garlic
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="10"/>Bacon
+    <INPUT TYPE="CHECKBOX" name="TOPPINGS" value="11"/>Bell Peppers
+</fieldset>
+<!--SPECIAL INSTRUSTIONS-->
+<fieldset>
+    <legend>SPECIAL INSTRUSTIONS</legend>
+   <textarea name="Gave any special instruction about your oder" rows="3" column="500" placeholder="Gave any special instruction about your oder"></textarea>
+</fieldset><br>
+
+<!--buttonc-->
+<div>
+    <INPUT TYPE="submit"  value="place your oder here"/>
+    <INPUT TYPE="reset"  value="Reset"/>
+</div>
+</body>
+</html>
