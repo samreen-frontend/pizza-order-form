@@ -19,4 +19,3 @@ This project demonstrates form inputs, fieldsets, radio buttons, checkboxes, and
 
 ## License
 MIT
-
