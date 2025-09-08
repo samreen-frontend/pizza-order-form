@@ -19,3 +19,8 @@ This project demonstrates form inputs, fieldsets, radio buttons, checkboxes, and
 
 ## License
 MIT
+
+Project Preview
+Click the image below to view the project on Twitter:
+
+Project Preview ---> (https://x.com/dev_samreen/status/1957696127882654192/photo/1)
