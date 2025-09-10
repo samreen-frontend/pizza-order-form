@@ -23,5 +23,6 @@ MIT
 Project Preview
 Click the image below to view the project on Twitter:
 
-Project Preview ---> (https://pbs.twimg.com/media/GzP7TeGXgAMnpmc?format=jpg&name=small)
+Project Preview ---> (https://x.com/dev_samreen/status/1960186730482483343)
+
 
